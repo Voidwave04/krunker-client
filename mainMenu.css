@@ -46,6 +46,7 @@
     font-size: 18px !important;
     box-sizing: border-box !important;
     border: none !important;
+    scroll-behavior: smooth !important;
     background-color: rgba(0,0,0,.4) !important;
     border-radius: 6px !important;
     pointer-events: all !important;
@@ -60,7 +61,7 @@
 }
 #aHolder {
     position: absolute !important;
-    bottom: 33% !important;
+    bottom: 75% !important;
     left: -8% !important;
     right: 0 !important;
     text-align: center !important;
