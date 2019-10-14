@@ -2,21 +2,7 @@
     font-family: sans-serif;
 }
 
-#instructionHolder {
 
-	 /* z-index: -1; */
-	    background-color: rgba(0, 0, 0, 0);
-	/* you can set image opacity here if you want */
-	/* opacity: 1; */
-	
-}
-
-#instructions {
-
-
-	/* background-color:black; */
-	
-}
 
 #menuItemContainer {
     position: absolute !important;
