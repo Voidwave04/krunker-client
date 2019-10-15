@@ -26,12 +26,12 @@
 #chatHolder {
     position: absolute !important;
     z-index: 1000 !important;
-    height: 100px !important;
-    width: 280px !important;
+    height: 1px !important;
+    width: 200px !important;
     overflow:scroll;
     left: 20px !important;
     top: 53% !important;
-    border:1px;
+    border:5px;
 }
 
 #chatList {
