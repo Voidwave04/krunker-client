@@ -43,7 +43,7 @@
 #chatInput {
     width: 100% !important;
     padding: 5px !important;
-    bottom: 45px;
+    top: 245px !important;
     position: relative !important;
     padding-left: 10px !important;
     color: #fff !important;
