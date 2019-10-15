@@ -26,11 +26,12 @@
 #chatHolder {
     position: absolute !important;
     z-index: 1000 !important;
-    height: 250px !important;
-    width: 250px !important;
+    height: 100% !important;
+    width: 100% !important;
     overflow:scroll;
     left: 20px !important;
     top: 245px !important;
+    scroll-behavior: smooth !important;
     border:5px;
 }
 
@@ -49,7 +50,6 @@
     font-size: 18px !important;
     box-sizing: border-box !important;
     border: none !important;
-    scroll-behavior: smooth !important;
     background-color: rgba(0,0,0,.4) !important;
     border-radius: 6px !important;
     pointer-events: all !important;
