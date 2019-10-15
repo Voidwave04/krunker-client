@@ -29,16 +29,18 @@
     height: 1px !important;
     width: 280px !important;
     left: 20px !important;
-    top: 53% !important;
+    top: 50% !important;
     overflow-y: scroll;
-    border: 2px;
+    border: 1px;
 }
 
 #chatList {
     position: fixed !important;
     width: 350px !important;
     margin: 0 auto !important;
-    height: 1000px !important;
+    height: 100px !important;
+    overflow-y: scroll !important;
+    border: 1px;
 }
 
 #chatInput {
