@@ -30,6 +30,8 @@
     width: 280px !important;
     left: 20px !important;
     top: 50% !important;
+    overflow-y: scroll;
+    border: 1px;
 }
 
 #chatList {
