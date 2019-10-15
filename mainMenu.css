@@ -193,8 +193,6 @@
 	padding-top: 11px;
     padding-bottom: 6px;
 	pointer-events:all;
-    /* outline-style: solid; */
-    /* outline-width: thin; */
 }
 
 #timerDisplay {
