@@ -27,7 +27,7 @@
     position: absolute !important;
     z-index: 1000 !important;
     height: 100% !important;
-    width: 100% !important;
+    width: 200px !important;
     overflow:scroll;
     left: 20px !important;
     bottom: 35px;
@@ -38,6 +38,7 @@
 #chatList {
     position: fixed !important;
     width: 350px !important;
+    bottom: 50px;
 }
 
 #chatInput {
