@@ -26,7 +26,7 @@
 #chatHolder {
     position: absolute !important;
     z-index: 1000 !important;
-    height: 25% !important;
+    height: 50% !important;
     width: 200px !important;
     overflow:scroll;
     left: 20px !important;
@@ -38,7 +38,7 @@
 #chatList {
     position: fixed !important;
     width: 350px !important;
-    bottom: 75px;
+    bottom: 50px;
 }
 
 #chatInput {
