@@ -27,63 +27,63 @@
 this is the old menu
 */
 
-/* #chatHolder { */
-    /* position: absolute !important; */
-    /* z-index: 100000 !important; */
-    /* height: 358px!important; */
-    /* width: 380px !important; */
-    /* left: 24px !important; */
-    /* top: 57% !important; */
-/* } */
+#chatHolder {
+    position: absolute !important;
+    z-index: 100000 !important;
+    height: 358px!important;
+    width: 380px !important;
+    left: 24px !important;
+    top: 57% !important;
+}
 
-/* #chatList { */
-    /* position: absolute !important; */
-    /* width: 360px; */
-    /* margin: 0 auto !important; */
-    /* height: 41%; */
-    /* top: 14%; */
-    /* overflow-x: scroll !important; */
-    /* overflow-y: hidden !important; */
-    /* border: 1px; */
-    /* pointer-events: all !important; */
-    /* display: flex; */
-    /* padding-left: 10px; */
-    /* padding-right: 10px;	 */
-/* } */
+#chatList {
+    position: absolute !important;
+    width: 360px;
+    margin: 0 auto !important;
+    height: 41%;
+    top: 14%;
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+    border: 1px;
+    pointer-events: all !important;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;	
+}
 
-/* .chatItem { */
-    /* word-wrap: inherit !important; */
-    /* margin-bottom: 32px !important; */
-    /* padding-left: 19px !important; */
-    /* padding-right: 0px !important; */
-    /* padding-bottom: 8px !important; */
-    /* padding-top: 10px !important; */
-    /* font-size: inherit !important; */
-    /* background-color: #00000066 !important; */
-    /* display: flex !important; */
-	/* border-radius: 0 !important; */
-/* } */
-/* .chatMsg { */
-    /* width: 136px; */
-/* } */
+.chatItem {
+    word-wrap: inherit !important;
+    margin-bottom: 32px !important;
+    padding-left: 19px !important;
+    padding-right: 0px !important;
+    padding-bottom: 8px !important;
+    padding-top: 10px !important;
+    font-size: inherit !important;
+    background-color: #00000066 !important;
+    display: flex !important;
+	border-radius: 0 !important;
+}
+.chatMsg {
+    width: 136px;
+}
 
-/* #chatInput { */
-    /* width: 100% !important; */
-    /* top: 63%; */
-    /* position: relative !important; */
-    /* padding-left: 10px !important; */
-    /* color: #fff !important; */
-    /* font-size: 21px !important; */
-    /* box-sizing: border-box !important; */
-    /* border: none !important; */
-    /* background-color: rgba(0,0,0,.4) !important; */
-    /* pointer-events: all !important; */
-    /* font-size: 1px; */
-/* } */
+#chatInput {
+    width: 100% !important;
+    top: 63%;
+    position: relative !important;
+    padding-left: 10px !important;
+    color: #fff !important;
+    font-size: 21px !important;
+    box-sizing: border-box !important;
+    border: none !important;
+    background-color: rgba(0,0,0,.4) !important;
+    pointer-events: all !important;
+    font-size: 1px;
+}
 
 
 
-#uiBase.onMenu #chatHolder {
+/* #uiBase.onMenu #chatHolder {
     left: 0%;
     height: 90%;
 	
@@ -138,7 +138,7 @@ this is the old menu
     color: #ff6868;
     font-size: 14px;
     background-color: rgba(31, 8, 8, 0);
-}
+} */
 
 
 
