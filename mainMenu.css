@@ -2,7 +2,21 @@
     font-family: sans-serif;
 }
 
+#instructionHolder {
 
+	 /* z-index: -1; */
+	    background-color: rgba(0, 0, 0, 0);
+	/* you can set image opacity here if you want */
+	/* opacity: 1; */
+	
+}
+
+#instructions {
+
+
+	/* background-color:black; */
+	
+}
 
 #menuItemContainer {
     position: absolute !important;
@@ -22,16 +36,13 @@
     align-items: flex-end !important;
 }
 
-
 #chatHolder {
     position: absolute !important;
-    z-index: 100 !important;
+    z-index: 1000 !important;
     height: 1px !important;
-    width: 200px !important;
-    overflow:scroll;
+    width: 280px !important;
     left: 20px !important;
-    top: 53% !important;
-    border:5px;
+    top: 23% !important;
 }
 
 #chatList {
@@ -49,7 +60,6 @@
     font-size: 18px !important;
     box-sizing: border-box !important;
     border: none !important;
-    scroll-behavior: smooth !important;
     background-color: rgba(0,0,0,.4) !important;
     border-radius: 6px !important;
     pointer-events: all !important;
@@ -64,7 +74,7 @@
 }
 #aHolder {
     position: absolute !important;
-    bottom: 75% !important;
+    bottom: 33% !important;
     left: -8% !important;
     right: 0 !important;
     text-align: center !important;
