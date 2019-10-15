@@ -38,7 +38,7 @@
 #chatList {
     position: fixed !important;
     width: 350px !important;
-    bottom: 50px;
+    bottom: 100px;
 }
 
 #chatInput {
