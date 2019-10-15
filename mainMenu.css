@@ -38,9 +38,9 @@
     position: fixed !important;
     width: 350px !important;
     margin: 0 auto !important;
-    height: 100px !important;
+    height: 1000px !important;
     overflow-y: scroll !important;
-    border: 1px;
+    border: 1px solid;
 }
 
 #chatInput {
