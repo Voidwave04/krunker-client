@@ -30,7 +30,7 @@
     width: 200px !important;
     overflow:scroll;
     left: 20px !important;
-    bottom: 35px;
+    top: 35px;
     scroll-behavior: smooth !important;
     border:5px;
 }
