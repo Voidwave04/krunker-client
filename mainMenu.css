@@ -37,7 +37,7 @@
     width: 350px !important;
     margin: 0 auto !important;
     height: 150px !important;
-    overflow: scroll !important;
+    overflow-x: scroll !important;
     border: 1px;
     pointer-events: all !important;
     display: flex;
