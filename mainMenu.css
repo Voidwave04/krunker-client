@@ -30,7 +30,7 @@
     width: 100% !important;
     overflow:scroll;
     left: 20px !important;
-    top: 245px !important;
+    bottom: 35px;
     scroll-behavior: smooth !important;
     border:5px;
 }
@@ -43,7 +43,7 @@
 #chatInput {
     width: 100% !important;
     padding: 5px !important;
-    top: 245px !important;
+    bottom: 45px;
     position: relative !important;
     padding-left: 10px !important;
     color: #fff !important;
