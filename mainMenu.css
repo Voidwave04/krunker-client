@@ -26,7 +26,7 @@
 #chatHolder {
     position: absolute !important;
     z-index: 1000 !important;
-    height: 100px !important;
+    height: 280px !important;
     width: 280px !important;
     left: 20px !important;
     top: 53% !important;
