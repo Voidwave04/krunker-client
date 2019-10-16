@@ -102,7 +102,7 @@ this is the old menu
 #chatList {
     background-color: #17171778;
     display: list-item;
-	height: 50px;
+	height: 100px;
 	maximum-height: 50px;
     overflow-x: hidden;
     overflow-y: scroll;
