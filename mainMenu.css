@@ -67,9 +67,9 @@ this is the old menu
     display: contents !important;
     border-radius: 0 !important;
 	
-	::-webkit-scrollbar {
-width: 211px;
-}
+-webkit-scrollbar {
+width: 2px;
+    }
 	
 }
 .chatMsg {
