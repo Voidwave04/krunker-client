@@ -25,7 +25,7 @@
 
 /*
 this is the old menu
-*/
+
 
 #chatHolder {
     position: absolute !important;
@@ -81,10 +81,10 @@ this is the old menu
     pointer-events: all !important;
     font-size: 1px;
 }
+*/
 
 
-
-/* #uiBase.onMenu #chatHolder {
+ #uiBase.onMenu #chatHolder {
     left: 0%;
     height: 90%;
 	
@@ -100,6 +100,7 @@ this is the old menu
 
 #chatList {
     background-color: #17171778;
+    display: list-item;
     padding-top: 6px;
     padding-left: 6px;
     padding-right: 6px;
@@ -130,7 +131,7 @@ this is the old menu
 .chatItem {
     max-width: 280px;
     word-wrap: break-word;
-    display: inline-block;
+    display: contents;
     margin-bottom: 10px;
     padding: 5px;
     padding-left: 10px;
@@ -139,7 +140,7 @@ this is the old menu
     color: #ff6868;
     font-size: 14px;
     background-color: rgba(31, 8, 8, 0);
-} */
+} 
 
 
 
