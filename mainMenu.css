@@ -66,6 +66,11 @@ this is the old menu
     background-color: #00000066 !important;
     display: contents !important;
     border-radius: 0 !important;
+	
+	::-webkit-scrollbar {
+width: 2px;
+}
+	
 }
 .chatMsg {
     width: 136px;
