@@ -102,6 +102,7 @@ this is the old menu
     background-color: #17171778;
     display: list-item;
 	height: 300px;
+	maximum-height: 300px;
     overflow-x: hidden;
     overflow-y: scroll;
 	border: 1px;
