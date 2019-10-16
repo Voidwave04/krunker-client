@@ -37,7 +37,7 @@ this is the old menu
     left: 17px;
 }
 
-#chatList1 {
+#chatList {
     position: absolute !important;
     width: 360px; 
     margin: 0 auto !important;
