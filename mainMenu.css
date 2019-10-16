@@ -104,6 +104,7 @@ this is the old menu
     display: list-item;
 	height: 100px;
 	maximum-height: 100px;
+	margin: 0 auto;
     overflow-x: hidden;
     overflow-y: scroll;
 	border: 1px;
