@@ -47,6 +47,7 @@ this is the old menu
     border: 1px;
     pointer-events: all !important;
     display: table;
+    max-height: 1000;
     padding-left: 10px;
     padding-right: 10px;	
 }
