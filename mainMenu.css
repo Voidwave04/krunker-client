@@ -54,8 +54,10 @@ this is the old menu
     padding-right: 6px;
     padding-bottom: 3px;
     display: list-item;
-	scrollbar-width: 2px;
+	::-webkit-scrollbar {
+    width: 12px;
 }
+
 
 .chatItem {
     word-wrap: inherit !important;
