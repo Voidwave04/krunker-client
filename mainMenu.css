@@ -37,7 +37,7 @@ this is the old menu
     left: 17px;
 }
 
-#chatList {
+#chatList1 {
     position: absolute !important;
     width: 360px; 
     margin: 0 auto !important;
@@ -67,7 +67,7 @@ this is the old menu
     display: contents !important;
     border-radius: 0 !important;
 	
--webkit-scrollbar {
+::-webkit-scrollbar {
 width: 2px;
     }
 	
