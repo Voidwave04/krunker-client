@@ -46,7 +46,7 @@ this is the old menu
     overflow-y: scroll !important;
     border: 1px;
     pointer-events: all !important;
-    display: contents;
+    display: table;
     padding-left: 10px;
     padding-right: 10px;	
 }
