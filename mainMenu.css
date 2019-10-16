@@ -138,7 +138,7 @@ this is the old menu
 .chatItem {
     max-width: 280px;
     word-wrap: break-word;
-    display: list-item;
+    display: contents;
     margin-bottom: 10px;
     padding: 5px;
     padding-left: 10px;
