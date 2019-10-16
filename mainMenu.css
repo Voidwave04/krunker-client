@@ -103,6 +103,7 @@ this is the old menu
     display: list-item;
     overflow-x: hidden;
     overflow-y: scroll;
+	border: 1px;
     pointer-events: all;
     padding-top: 6px;
     padding-left: 6px;
