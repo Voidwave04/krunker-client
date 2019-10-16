@@ -56,7 +56,7 @@ this is the old menu
 }
 
 .chatItem {
-    word-wrap: break-word !important;
+    word-wrap: inherit !important;
     margin-bottom: 32px !important;
     padding-left: 19px !important;
     padding-right: 0px !important;
