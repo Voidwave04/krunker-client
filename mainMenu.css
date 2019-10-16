@@ -25,31 +25,34 @@
 
 /*
 this is the old menu
-
+*/
 
 #chatHolder {
-    position: absolute !important;
-    z-index: 100000 !important;
-    height: 358px!important;
-    max-height: 1000px !important;
-    width: 380px !important;
-    left: 24px !important;
-    top: 57% !important;
+    position: absolute;
+    z-index: 1000;
+    width: 384px;
+    height: 25%;
+	bottom: 20px;
+    top: 485px;
+    left: 17px;
 }
 
 #chatList {
     position: absolute !important;
     width: 360px;
     margin: 0 auto !important;
-    height: 41%;
+    height: 80%;
     top: 14%;
     overflow-x: hidden !important;
     overflow-y: scroll !important;
     border: 1px;
     pointer-events: all !important;
+    background-color: #17171778;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 3px;
     display: list-item;
-    padding-left: 10px;
-    padding-right: 10px;	
 }
 
 .chatItem {
@@ -62,62 +65,16 @@ this is the old menu
     font-size: inherit !important;
     background-color: #00000066 !important;
     display: contents !important;
-	border-radius: 0 !important;
+    border-radius: 0 !important;
 }
 .chatMsg {
     width: 136px;
 }
 
 #chatInput {
-    width: 100% !important;
-    top: 63%;
-    position: relative !important;
-    padding-left: 10px !important;
-    color: #fff !important;
-    font-size: 21px !important;
-    box-sizing: border-box !important;
-    border: none !important;
-    background-color: rgba(0,0,0,.4) !important;
-    pointer-events: all !important;
-    font-size: 1px;
-}
-*/
-
-
- #uiBase.onMenu #chatHolder {
-    left: 0%;
-    height: 90%;
-	
-}
-
-#chatHolder {
     position: absolute;
-    z-index: 100000;
-	height:100000px;
-    width: 306px;
-    left: 0%;
-    height: 85%;
-}
-
-#chatList {
-    background-color: #17171778;
-    display: list-item;
-	height: 100px;
-	maximum-height: 100px;
-	margin: 0 auto;
-    overflow-x: hidden;
-    overflow-y: scroll;
-	border: 1px;
-    pointer-events: all;
-    padding-top: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 1px;
-	pointer-events:all;
-}
-
-#chatInput {
-    width: 100%;
+    height: 42px;
+    width: 97%;
     padding: 5px;
     padding-left: 10px;
     color: #fff;
@@ -126,43 +83,20 @@ this is the old menu
     border: none;
     background-color: rgba(0, 0, 0, 0.44);
     pointer-events: all;
-    display: flex;
-    bottom: 200px;
-	border-radius:0px;
+    border-radius: 0px;
+    bottom: -36px;
+}
+
+#uiBase.onMenu #chatHolder {
+    bottom: 20px;
+    top: 520px;
+    left: 9px;
+}
 	
-}
-
-.chatMsg {
-    color: rgba(255,255,255,.7);
-}
-
-.chatItem {
-    max-width: 280px;
-    word-wrap: break-word;
-    display: contents;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 4px;
-    color: #ff6868;
-    font-size: 14px;
-    background-color: rgba(31, 8, 8, 0);
-} 
-
-
-
-
-
-
-
 #voiceDisplay {
-    opacity: .5 !important;
-    z-index: 2 !important;
-    position: absolute !important;
-    bottom: 135px !important;
-    left: 300px !important;
+ display:none;
 }
+
 #aHolder {
     position: absolute !important;
     bottom: 65% !important;
@@ -200,8 +134,8 @@ this is the old menu
     width: 250px;
     background-color: #17171778;
     height: 117px;
-    top: 11px;
-    left: 313px;
+	top: 1px;
+    left: 3px;
     padding-left: 14px;
     padding-right: 5px;
 	padding-top: 11px;
@@ -222,3 +156,79 @@ border-radius:0px !important;
     top: 53%!important;
     pointer-events: all;
 }
+
+#leaderDisplay {
+border-radius: 0px;
+}
+
+#bottomRight {
+pointer-events:all !important;
+}
+
+#bottomLeftHolder {
+pointer-events:all !important;
+}
+
+/* #uiBase.onMenu #chatHolder {
+    left: 0%;
+    height: 90%;
+	
+}
+
+#chatHolder {
+    position: absolute;
+    z-index: 1000;
+    width: 306px;
+    left: 0%;
+    height: 85%;
+}
+
+#chatList {
+    background-color: #17171778;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+	pointer-events:all;
+}
+
+#chatInput {
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.44);
+    pointer-events: all;
+    display: flex;
+    bottom: 200px;
+	border-radius:0px;
+	
+}
+
+.chatMsg {
+    color: rgba(255,255,255,.7);
+}
+
+.chatItem {
+    max-width: 280px;
+    word-wrap: break-word;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    color: #ff6868;
+    font-size: 14px;
+    background-color: rgba(31, 8, 8, 0);
+} */
+
+
+
+
+
+
+
