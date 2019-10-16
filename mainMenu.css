@@ -52,7 +52,7 @@ this is the old menu
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 3px;
-    display: flex;
+    display: list-item;
 }
 
 .chatItem {
