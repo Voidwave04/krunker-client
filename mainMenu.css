@@ -101,6 +101,8 @@ this is the old menu
 #chatList {
     background-color: #17171778;
     display: list-item;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
     padding-top: 6px;
     padding-left: 6px;
     padding-right: 6px;
