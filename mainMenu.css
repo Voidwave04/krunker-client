@@ -47,14 +47,13 @@ this is the old menu
     overflow-y: scroll !important;
     border: 1px;
     pointer-events: all !important;
-    display: table-caption;
-    max-height: 1000;
+    display: list-item;
     padding-left: 10px;
     padding-right: 10px;	
 }
 
 .chatItem {
-    word-wrap: inherit !important;
+    word-wrap: break-word !important;
     margin-bottom: 32px !important;
     padding-left: 19px !important;
     padding-right: 0px !important;
@@ -62,7 +61,7 @@ this is the old menu
     padding-top: 10px !important;
     font-size: inherit !important;
     background-color: #00000066 !important;
-    display: flex !important;
+    display: contents !important;
 	border-radius: 0 !important;
 }
 .chatMsg {
