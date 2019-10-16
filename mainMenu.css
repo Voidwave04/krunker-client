@@ -30,6 +30,7 @@ this is the old menu
 #chatHolder {
     position: absolute;
     z-index: 1000;
+	height: 384px;
     width: 384px;
     height: 25%;
 	bottom: 20px;
