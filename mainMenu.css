@@ -69,6 +69,7 @@ this is the old menu
 }
 .chatMsg {
     width: 136px;
+	display: contents;
 }
 
 #chatInput {
