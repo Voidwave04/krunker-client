@@ -55,8 +55,12 @@ this is the old menu
     display: list-item;
 }
 
+::-webkit-scrollbar {
+width: 2px;
+    }
+
 .chatItem {
-    word-wrap: break-word !important;
+    word-wrap: initial !important;
     margin-bottom: 32px !important;
     padding-left: 19px !important;
     padding-right: 0px !important;
@@ -66,11 +70,6 @@ this is the old menu
     background-color: #00000066 !important;
     display: contents !important;
     border-radius: 0 !important;
-	
-::-webkit-scrollbar {
-width: 2px;
-    }
-	
 }
 .chatMsg {
     width: 136px;
