@@ -31,6 +31,7 @@ this is the old menu
     position: absolute !important;
     z-index: 100000 !important;
     height: 358px!important;
+    max-height: 1000px !important;
     width: 380px !important;
     left: 24px !important;
     top: 57% !important;
