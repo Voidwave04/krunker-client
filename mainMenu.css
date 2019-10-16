@@ -49,18 +49,14 @@ this is the old menu
     pointer-events: all !important;
     background-color: #17171778;
     padding-top: 6px;
-	font-size: 14px;
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 3px;
     display: list-item;
-	::-webkit-scrollbar {
-    width: 12px;
 }
 
-
 .chatItem {
-    word-wrap: inherit !important;
+    word-wrap: initial !important;
     margin-bottom: 32px !important;
     padding-left: 19px !important;
     padding-right: 0px !important;
@@ -73,9 +69,6 @@ this is the old menu
 }
 .chatMsg {
     width: 136px;
-	color: rgba(255,255,255,.7);
-	display: contents;
-	font-size: 14px;
 }
 
 #chatInput {
