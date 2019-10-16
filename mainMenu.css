@@ -164,6 +164,7 @@ border-radius:0px !important;
 
 #leaderDisplay {
 border-radius: 0px;
+	position: absolute;
 }
 
 #bottomRight {
