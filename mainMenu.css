@@ -46,7 +46,8 @@ this is the old menu
     overflow-y: hidden !important;
     border: 1px;
     pointer-events: all !important;
-    display: flex;
+    display: column;
+    column-count: 100;
     padding-left: 10px;
     padding-right: 10px;	
 }
