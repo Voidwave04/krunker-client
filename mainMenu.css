@@ -42,8 +42,8 @@ this is the old menu
     margin: 0 auto !important;
     height: 41%;
     top: 14%;
-    overflow-x: scroll !important;
-    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
     border: 1px;
     pointer-events: all !important;
     display: column;
