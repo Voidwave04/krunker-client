@@ -48,6 +48,8 @@ this is the old menu
 #chatList {
     position: absolute !important;
     width: 360px; 
+    word-break: keep-all;
+    overflow-wrap: normal;
     margin: 0 auto !important;
     height: 80%;
     top: 14%;
