@@ -96,6 +96,22 @@ width: 2px;
     top: 520px;
     left: 9px;
 }
+
+#killStreakHolder {
+    vertical-align: bottom;
+    display: list-item;
+    margin-right: 20px;
+    margin-bottom: -4px
+}
+
+.killStreakItem {
+    display: contents;
+    background-size: contain;
+    margin-left: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0,0,0,.25)
+}
 	
 #voiceDisplay {
  display:none;
