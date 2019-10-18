@@ -24,7 +24,7 @@
 
 #speedDisplay {
     z-index: 6;
-    display: none;
+    display: block;
     position: absolute;
     font-size: 14px;
     color: #ffea78;
