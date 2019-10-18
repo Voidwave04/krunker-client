@@ -28,7 +28,7 @@
     color: #ffea78;
     top: 54%;
     left: 50%;
-	draggable: true;
+    draggable: "true";
 }
 
 /*
