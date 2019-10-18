@@ -48,8 +48,6 @@ this is the old menu
 #chatList {
     position: absolute !important;
     width: 360px; 
-    word-break: keep-all;
-    overflow-wrap: normal;
     margin: 0 auto !important;
     height: 80%;
     top: 14%;
@@ -71,8 +69,6 @@ width: 2px;
 
 .chatItem {
     word-wrap: break-word !important;
-    word-break: keep-all;
-    overflow-wrap: normal;
     margin-bottom: 32px !important;
     padding-left: 19px !important;
     padding-right: 0px !important;
