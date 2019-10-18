@@ -75,6 +75,10 @@ width: 2px;
     width: 136px;
 }
 
+.weaponChatIcon {
+	display: none;
+}
+
 #chatInput {
     position: absolute;
     height: 42px;
@@ -113,26 +117,7 @@ width: 2px;
     background-color: rgba(0,0,0,.25)
 }
 
-#killCardHolder {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-size: 14px;
-    line-height: 50px
-}
 
-.isQueued #killCardHolder {
-    bottom: 75px
-}
-
-#killCard {
-    display: contents;
-    padding: 10px;
-    width: 450px;
-    background-color: rgba(0,0,0,.2)
-}
 	
 #voiceDisplay {
  display:none;
