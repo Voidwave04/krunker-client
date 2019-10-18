@@ -23,16 +23,12 @@
 }
 
 #speedDisplay {
-    z-index: 6;
-    display: block;
     position: absolute;
     font-size: 14px;
     color: #ffea78;
     top: 54%;
     left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%,-46%);
-    will-change: transform
+	draggable: true;
 }
 
 /*
@@ -72,7 +68,7 @@ width: 2px;
     }
 
 .chatItem {
-    word-wrap: initial !important;
+    word-wrap: break-word !important;
     margin-bottom: 32px !important;
     padding-left: 19px !important;
     padding-right: 0px !important;
