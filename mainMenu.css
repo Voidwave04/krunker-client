@@ -22,9 +22,7 @@
     align-items: flex-end !important;
 }
 
-#reloadMsg {
-display: absolute;	
-}
+
 #speedDisplay {
     position: absolute;
     font-size: 14px;
