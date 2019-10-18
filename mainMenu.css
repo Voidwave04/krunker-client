@@ -69,6 +69,7 @@ width: 2px;
 
 .chatItem {
     word-wrap: break-word !important;
+    word-break: break-word;
     overflow-wrap: normal;
     margin-bottom: 32px !important;
     padding-left: 19px !important;
