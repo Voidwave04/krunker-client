@@ -22,6 +22,18 @@
     align-items: flex-end !important;
 }
 
+#speedDisplay {
+    z-index: 6;
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    color: #ffea78;
+    top: 54%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-46%);
+    will-change: transform
+}
 
 /*
 this is the old menu
