@@ -29,7 +29,8 @@
     color: #ffea78;
     pointer-events: all !important;
     top: 8.68px;
-    left: -8px;
+    left: none;
+	right: 8px
 }
 
 /*
