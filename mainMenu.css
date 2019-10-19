@@ -74,7 +74,19 @@ this is the old menu
 }
 
 #menuClassContainer {
-        pointer-events: all !important;
+    position: absolute;
+    border-color: red;
+    border-style: solid;
+    border-width: thin;
+    height: 15%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 410px;
+    left: 925px;
+    pointer-events:all !important;
 }
 
 
