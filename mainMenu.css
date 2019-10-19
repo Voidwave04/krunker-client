@@ -54,7 +54,7 @@ this is the old menu
     height: 80%;
     top: 14%;
     overflow-x: hidden !important;
-    overflow-y: scroll !important;
+    overflow-y: hidden !important;
     border: 1px;
     pointer-events: all !important;
     background-color: #17171778;
