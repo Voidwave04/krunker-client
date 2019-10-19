@@ -73,6 +73,10 @@ this is the old menu
     display: list-item;
 }
 
+#menuClassContainer {
+    pointer-events: all;
+}
+
 
 
 ::-webkit-scrollbar {
