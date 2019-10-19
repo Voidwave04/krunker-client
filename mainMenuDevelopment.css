@@ -102,6 +102,9 @@ this is the old menu
 
 
 #menuClassContainer {
+    border-color:black;
+    border-width:thin;
+    border-style:solid;
     position: absolute;
     z-index: 0;
     height: 15%;
