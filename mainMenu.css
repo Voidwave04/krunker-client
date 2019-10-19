@@ -75,9 +75,6 @@ this is the old menu
 
 #menuClassContainer {
     position: absolute;
-    border-color: red;
-    border-style: solid;
-    border-width: thin;
     height: 15%;
     width: 9%;
     display: flex;
