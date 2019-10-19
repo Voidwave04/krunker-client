@@ -54,11 +54,17 @@ this is the old menu
     top: 495px;
     left: 19px;
     pointer-events:all;
-    opacity: 0.4;
+	
+/*
+     Fading just incase i might wanna use it for something later
+	
+     opacity: 0.4;
     -moz-transition: opacity 2s ease-in;
     -o-transition: opacity 2s ease-in;
     -ms-transition: opacity 2s ease-in;
     transition: opacity 0.5s ease-in;
+*/
+
 }
 
 #uiBase.onMenu #chatHolder {
