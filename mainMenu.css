@@ -74,7 +74,7 @@ this is the old menu
 }
 
 #menuClassContainer {
-    pointer-events: all;
+        pointer-events: all !important;
 }
 
 
