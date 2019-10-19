@@ -129,6 +129,14 @@ width: 2px;
     bottom: -100px;
 }
 
+#subLogoButtons {
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    transform: translate(-50%,0);
+    pointer-events:all; 
+}
+
 #uiBase.onMenu #chatHolder {
     bottom: 20px;
     top: 495px;
