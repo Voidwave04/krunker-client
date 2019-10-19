@@ -66,7 +66,29 @@ this is the old menu
     overflow-y: scroll !important;
     pointer-events: all !important;
     background-color: #17171778;
-	padding-top: 7px;
+    padding-top: 7px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 7px;
+    display: list-item;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+     opacity: 1;
+}
+
+#uiBase.onMenu #chatList {
+    position: absolute !important;
+    width: 360px; 
+    margin: 0 auto !important;
+    height: 114%;
+    top: 14%;
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    pointer-events: all !important;
+    background-color: #17171778;
+    padding-top: 7px;
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 7px;
