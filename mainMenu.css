@@ -79,13 +79,13 @@ this is the old menu
     border-style: solid;
     border-width: thin;
     height: 15%;
-    width: 10%;
+    width: 9%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    top: 410px;
-    left: 925px;
+    top: 46%;
+    left: 45%;
     pointer-events:all !important;
 }
 
