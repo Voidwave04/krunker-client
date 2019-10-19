@@ -126,7 +126,7 @@ width: 2px;
     margin-bottom: -4px
 }
 
-.button.cutebutt {
+button.cutebutt {
     position: relative;
     display: inline-block;
     background-color: #151515;
