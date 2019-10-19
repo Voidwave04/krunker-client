@@ -87,6 +87,10 @@ this is the old menu
     pointer-events:all !important;
 }
 
+#bubbleContainer {
+    right: 54% !important;
+}
+
 
 
 ::-webkit-scrollbar {
