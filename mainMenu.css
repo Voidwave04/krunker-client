@@ -56,21 +56,13 @@ this is the old menu
 	pointer-events:all;
 }
 
-#chatList.onMenu {
-    position: absolute !important;
-    width: 360px; 
-    margin: 0 auto !important;
-    height: 114%;
-    top: 14%;
-    overflow-x: hidden !important;
-    overflow-y: scroll !important;
-    pointer-events: all !important;
+#chatList {
     background-color: #17171778;
-	padding-top: 7px;
+    padding-top: 6px;
     padding-left: 6px;
     padding-right: 6px;
-    padding-bottom: 7px;
-    display: list-item;
+    padding-bottom: 1px;
+	pointer-events:all;
 }
 
 #menuClassContainer {
