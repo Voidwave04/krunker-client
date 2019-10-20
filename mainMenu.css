@@ -115,7 +115,7 @@ width: 2px;
 
 
 
-#chatInput {
+#chatInput.onMenu {
     position: absolute;
     height: 42px;
     width: 97%;
