@@ -103,8 +103,8 @@ width: 2px;
     display: contents !important;
     border-radius: 0 !important;
 }
-.chatMsg.onMenu {
-    width: 136px;
+.chatMsg {
+    color: rgba(255,255,255,.7);
 }
 
 
