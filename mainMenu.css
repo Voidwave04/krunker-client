@@ -152,6 +152,10 @@ width: 2px;
     margin-bottom: -4px
 }
 
+button.cutebutt1 {
+	display: none;
+}
+
 button.cutebutt1.onMenu {
     position: relative;
     display: inline-block;
@@ -166,7 +170,9 @@ button.cutebutt1.onMenu {
     border-radius: 1px !important;
     border-color: #1d1d1d;
 }
-
+button.cutebutt2 {
+	display: none;
+}
 button.cutebutt2.onMenu {
     position: relative;
     display: inline-block;
