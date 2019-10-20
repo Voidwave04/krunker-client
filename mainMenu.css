@@ -152,7 +152,7 @@ width: 2px;
     margin-bottom: -4px
 }
 
-button.cutebutt1 {
+button.cutebutt1.onMenu {
     position: relative;
     display: inline-block;
     background-color: #151515;
@@ -167,7 +167,7 @@ button.cutebutt1 {
     border-color: #1d1d1d;
 }
 
-button.cutebutt2 {
+button.cutebutt2.onMenu {
     position: relative;
     display: inline-block;
     background-color: #151515;
