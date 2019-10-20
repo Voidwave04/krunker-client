@@ -45,7 +45,7 @@
 this is the old menu
 */
 
-#chatHolder {
+#chatHolder.onMenu {
     position: absolute;
     z-index: 1000;
     width: 384px;
