@@ -97,7 +97,7 @@ this is the old menu
 width: 2px;
     }
 
-.chatItem {
+.chatItem.onMenu {
     word-wrap: break-word !important;
     margin-bottom: 32px !important;
     padding-left: 19px !important;
@@ -109,7 +109,7 @@ width: 2px;
     display: contents !important;
     border-radius: 0 !important;
 }
-.chatMsg {
+.chatMsg.onMenu {
     width: 136px;
 }
 
