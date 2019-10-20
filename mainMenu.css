@@ -48,13 +48,15 @@ this is the old menu
 #chatHolder {
     position: absolute;
     z-index: 1000;
-    width: 384px;
+    width: 280px;
 	height: 18%;
     bottom: 20px;
     top: 495px;
-    left: 19px;
+    left: 20px;
 	pointer-events:all;
 }
+
+
 
 #chatList {
     background-color: #17171778;
