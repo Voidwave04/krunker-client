@@ -131,11 +131,7 @@ width: 2px;
     pointer-events:all; 
 }
 
-#uiBase.onMenu #chatHolder {
-    bottom: 20px;
-    top: 495px;
-    left: 19px;
-}
+
 
 #killStreakHolder {
     vertical-align: bottom;
