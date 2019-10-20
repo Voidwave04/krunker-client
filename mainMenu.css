@@ -50,7 +50,7 @@ this is the old menu
     z-index: 1000;
     bottom: 20px;
     top: 57%;
-    left: 1%;
+    left: 1% !important;
 }
 
 
