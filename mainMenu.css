@@ -136,9 +136,7 @@ width: 2px;
     font-size: 14px;
     background-color: rgba(31, 8, 8, 0);
 }
-.chatMsg {
-    color: rgba(255,255,255,.7);
-}
+
 
 
 
@@ -193,35 +191,7 @@ width: 2px;
 
 
 
-.button.cutebutt1.onMenu {
-    position: relative;
-    display: inline-block;
-    background-color: #151515;
-    text-align: center;
-    color: #fff;
-    pointer-events: all;
-    cursor: pointer;
-    -webkit-transition: all .2s;
-    transition: all .2s;
-    border-style: solid;
-    border-radius: 1px !important;
-    border-color: #1d1d1d;
-}
 
-.button.cutebutt2.onMenu {
-    position: relative;
-    display: inline-block;
-    background-color: #151515;
-    text-align: center;
-    color: #fff;
-    pointer-events: all;
-    cursor: pointer;
-    -webkit-transition: all .2s;
-    transition: all .2s;
-    border-style: solid;
-    border-radius: 1px !important;
-    border-color: #1d1d1d;
-}
 
 .killStreakItem {
     display: contents;
