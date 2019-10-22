@@ -3,38 +3,7 @@
 	
 }
 
-* {
-    outline: none;
-    font-family: gamefont;
-    color: #680ea5;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
-}
 
-#menuWindow {
-    position: absolute;
-    left: 50%;
-    bottom: 220px;
-    border-radius: 6px;
-    max-height: calc(100% - 480px);
-    transform: translateX(-50%);
-    z-index: 2;
-    overflow-y: auto;
-    display: inline-block;
-    text-align: left;
-    pointer-events: auto;
-    padding: 20px;
-    width: 705px;
-    font-size: 20px;
-    background-color: #191717;
-    -webkit-box-shadow: 0 9px 0 0 #a6a6a6;
-    -moz-box-shadow: 0 9px 0 0 #a6a6a6;
-    box-shadow: 0 9px 0 0 #a6a6a6
-}
 
 #menuItemContainer {
     position: absolute !important;
@@ -84,6 +53,38 @@ this is the old menu
     left: 1% !important;
 }
 
+* {
+    outline: none;
+    font-family: gamefont;
+    color: #680ea5;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#menuWindow {
+    position: absolute;
+    left: 50%;
+    bottom: 220px;
+    border-radius: 6px;
+    max-height: calc(100% - 480px);
+    transform: translateX(-50%);
+    z-index: 2;
+    overflow-y: auto;
+    display: inline-block;
+    text-align: left;
+    pointer-events: auto;
+    padding: 20px;
+    width: 705px;
+    font-size: 20px;
+    background-color: #191717;
+    -webkit-box-shadow: 0 9px 0 0 #a6a6a6;
+    -moz-box-shadow: 0 9px 0 0 #a6a6a6;
+    box-shadow: 0 9px 0 0 #a6a6a6
+}
 
 
 #chatList {
