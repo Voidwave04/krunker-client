@@ -53,7 +53,9 @@ this is the old menu
     left: 1% !important;
 }
 
-
+::-webkit-scrollbar {
+width: 2px;
+    }
 
 #menuWindow {
     position: absolute;
