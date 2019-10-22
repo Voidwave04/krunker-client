@@ -65,26 +65,7 @@ this is the old menu
     user-select: none
 }
 
-#menuWindow {
-    position: absolute;
-    left: 50%;
-    bottom: 220px;
-    border-radius: 6px;
-    max-height: calc(100% - 480px);
-    transform: translateX(-50%);
-    z-index: 2;
-    overflow-y: auto;
-    display: inline-block;
-    text-align: left;
-    pointer-events: auto;
-    padding: 20px;
-    width: 705px;
-    font-size: 20px;
-    background-color: #191717;
-    -webkit-box-shadow: 0 9px 0 0 #a6a6a6;
-    -moz-box-shadow: 0 9px 0 0 #a6a6a6;
-    box-shadow: 0 9px 0 0 #a6a6a6
-}
+
 
 
 #chatList {
