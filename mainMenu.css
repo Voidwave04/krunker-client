@@ -76,7 +76,12 @@ this is the old menu
     box-shadow: 0 9px 0 0 #a6a6a6
 }
 
-
+.settText {
+    cursor: pointer;
+    color: #2196f3;
+    font-size: 22px;
+    pointer-events: auto
+}
 
 
 #chatList {
