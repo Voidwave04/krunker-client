@@ -83,6 +83,12 @@ this is the old menu
     pointer-events: auto
 }
 
+.settName,.settNameSmall {
+    clear: both;
+    margin-top: 3px;
+    font-size: 22px;
+    color: rgba(34, 187, 114, 0.64)
+}
 
 #chatList {
     background-color: #17171778;
