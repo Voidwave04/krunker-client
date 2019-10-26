@@ -3,9 +3,14 @@
 	    color: #680ea5;
 }
 
+
 @font-face {
-	font-family: 'voidFont';
-	src: url('voidFont.ttf');
+    font-family: 'voidFont';
+    src: url('https://voidwave04.github.io/krunker-client-ui/voidfont-webfont.woff2') format('woff2'),
+         url('https://voidwave04.github.io/krunker-client-ui/voidfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 #menuItemContainer {
