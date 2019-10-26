@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: 'voidFont';
-    src: url('https://voidwave04.github.io/krunker-client-ui/voidfont-webfont.woff2') format('woff2'),
-         url('https://voidwave04.github.io/krunker-client-ui/voidfont-webfont.woff') format('woff');
+    src: url('voidfont-webfont.woff2') format('woff2'),
+         url('voidfont-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
