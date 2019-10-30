@@ -21,6 +21,15 @@
     top: 87% !important;
 }
 
+#serverSearch,#settingSearch {
+    float: right;
+    width: 200px;
+    text-align: right;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid rgba(41, 31, 31, 0.849)
+}
 
 #classPreviewCanvas {
     transform: scale(0.44);
