@@ -28,7 +28,8 @@
     font-size: 20px;
     box-sizing: border-box;
     border: none;
-    border-bottom: 3px solid rgba(41, 31, 31, 0.849)
+    border-bottom: 3px solid rgba(41, 31, 31, 0.849);
+    background-color: rgba(29, 24, 24, 0.705)
 }
 
 #classPreviewCanvas {
