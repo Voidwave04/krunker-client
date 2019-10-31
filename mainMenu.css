@@ -15,10 +15,10 @@
 
 #menuItemContainer {
     position: absolute !important;
-    /* bottom: 0 !important; */
+     bottom: 0 !important; 
     width: fit-content;
     flex-direction: column;
-    /* top: 5%; */
+    top: 5%; 
     height:;
 }
 
