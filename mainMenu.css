@@ -14,7 +14,12 @@
 }
 
 #menuItemContainer {
-  display: none;
+    position: absolute !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    flex-direction: inherit !important;
+    top: 87% !important;
+	display: none;
 }
 
 #serverSearch,#settingSearch {
