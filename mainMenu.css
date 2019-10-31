@@ -13,6 +13,15 @@
 
 }
 
+
+
+#menuItemContainer {
+    position: absolute !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    flex-direction: inherit !important;
+    top: 87% !important;
+}
 .menuItem .menuItemTitle {
     margin-top: -20%;
     color: #fff05d
@@ -25,15 +34,6 @@
 .menuItem:active {
     background: #041f79
 }
-
-#menuItemContainer {
-    position: absolute !important;
-    bottom: 0 !important;
-    width: 100% !important;
-    flex-direction: inherit !important;
-    top: 87% !important;
-}
-
 #serverSearch,#settingSearch {
     float: right;
     width: 200px;
