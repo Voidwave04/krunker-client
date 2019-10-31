@@ -15,11 +15,10 @@
 
 #menuItemContainer {
     position: absolute !important;
-     bottom: 0 !important; 
-    width: fit-content;
-    flex-direction: column;
-    top: 5%; 
-    height:;
+    bottom: 0 !important;
+    width: 100% !important;
+    flex-direction: inherit !important;
+    top: 87% !important;
 }
 
 #serverSearch,#settingSearch {
@@ -68,15 +67,6 @@ this is the old menu
     position: absolute;
     z-index: 1000;
     bottom: 20px;
-    top: 57%;
-    left: 1% !important;
-}
-
-
-#chatHolder.onMenu {
-    position: absolute;
-    z-index: 1000;
-    bottom: 30px;
     top: 57%;
     left: 1% !important;
 }
