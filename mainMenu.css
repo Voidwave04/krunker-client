@@ -13,6 +13,19 @@
 
 }
 
+.menuItem .menuItemTitle {
+    margin-top: -20%;
+    color: #fff05d
+}
+
+.menuItem:hover {
+    background: #340abf
+}
+
+.menuItem:active {
+    background: #041f79
+}
+
 #menuItemContainer {
     position: absolute !important;
     bottom: 0 !important;
