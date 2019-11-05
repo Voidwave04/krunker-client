@@ -9,7 +9,6 @@ const rpc = new DiscordRPC.Client({transport: 'ipc'});
 const time = new Date();
 debug = process.argv.includes('--dev') || true;
 
-
 app.commandLine.appendSwitch('ignore-gpu-blacklist');
 		app.commandLine.appendSwitch('disable-frame-rate-limit');
 		if(os.cpus()[0].model.includes('AMD')) {
@@ -48,14 +47,10 @@ app.commandLine.appendSwitch('ignore-gpu-blacklist');
 
 
 app.on('ready', () => {
-
 	runGameWin();
 	shortcuts();
-	runRPC();
   })
-
 	function runGameWin() {
-		
 		this.gameWin = new BrowserWindow({
 			width: 800,
 			height: 600,
@@ -65,7 +60,6 @@ app.on('ready', () => {
 			autoHideMenuBar: true,
 			webPreferences: {
 				nodeIntegration: false,
-				
 	    		preload: path.join(__dirname, 'client.js')
 	  		}
 		});
@@ -73,10 +67,6 @@ app.on('ready', () => {
 		this.gameWin.removeMenu();
 		if (debug) this.gameWin.webContents.openDevTools({ mode: 'undocked' });
 	}
-
-	
-
-	
 	function shortcuts() {
 		localShortcut.register('Esc', () => {
 			this.gameWin.webContents.executeJavaScript(`
