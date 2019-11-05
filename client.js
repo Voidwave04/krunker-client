@@ -1,5 +1,5 @@
 const {ipcRenderer} = require('electron');
-let versionNum = 0.1.0
+const versionNum = '0.1.0'
 	window.prompt = function importSettings() {
     var tempHTML = '<div class="setHed">Import Settings</div>';
     tempHTML += '<div class="settName" id="importSettings_div" style="display:block">Settings String<input type="url" placeholder="Paste Settings String Here" name="url" class="inputGrey2" id="settingString"></div>';
