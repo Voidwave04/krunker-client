@@ -112,7 +112,7 @@ window.fakeFPS = function(){
 }
 document.addEventListener('DOMContentLoaded', function() {
 
-document.body.innerHTML += '<link rel="stylesheet" href="https://voidwave04.github.io/krunker-userscript/mainMenu.css">';
+document.body.innerHTML += '<link rel="stylesheet" href="https://voidwave04.github.io/krunker-client/mainMenu.css">';
     var menubuttons = document.getElementById('subLogoButtons');
 dragElement(document.getElementById("topLeftHolder"));
 dragElement(document.getElementById("chatHolder"));
