@@ -22,9 +22,6 @@ function parseSettings(string) {
         }
     }
 }
-
-
-
 window.removebanner = function () {
     var banner1 = document.getElementById('aHolder');
     var banner2 = document.getElementById('gameNameHolder');
