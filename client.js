@@ -1,5 +1,5 @@
 const {ipcRenderer} = require('electron');
-
+const versionNum = 0.1.0
 	window.prompt = function importSettings() {
     var tempHTML = '<div class="setHed">Import Settings</div>';
     tempHTML += '<div class="settName" id="importSettings_div" style="display:block">Settings String<input type="url" placeholder="Paste Settings String Here" name="url" class="inputGrey2" id="settingString"></div>';
@@ -172,4 +172,6 @@ window.hidemoreoptions2 = function() {
 		 +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="showWindow(1)">Settings</div>'
                               +'<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.hidemoreoptions1()">Next</div>'
 		}
+	           mapInfoHolder.insertAdjacentHTML("beforeend", '<div id="clientVersion" style="font-size: 15px; color: #000"></div>');
+            clientVersion.innerHTML = '<a style="color: #6600CC">VoidClient v' + versionNum + '</a>';
 	})
