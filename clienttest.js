@@ -21,7 +21,7 @@ window.showbanner = function () {
     banner3.style.visibility = 'visible';
 };
 
-window.showelements = function () {
+window.showelements = async function () {
     window.alert("Things that can be moved : chatwindow, roundtimer in top left, ammo counter bottom right, the speedometer, and your avatar and health bottom left");
 
     var banner1 = document.getElementById('inGameUI');
@@ -36,7 +36,7 @@ window.showelements = function () {
 
 
 
-window.hideelements = function () {
+window.hideelements = async function () {
     var banner1 = document.getElementById('inGameUI');
     var banner2 = document.getElementById('menuItemContainer');
     banner1.style.display = 'none';
@@ -45,7 +45,7 @@ window.hideelements = function () {
 
 
 
-function dragElement(draggableF) {
+async function dragElement(draggableF) {
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     if (document.getElementById(draggableF.id + "header")) {
 
@@ -55,7 +55,7 @@ function dragElement(draggableF) {
         draggableF.onmousedown = dragMouseDown;
     }
 
-    function dragMouseDown(e) {
+   async function dragMouseDown(e) {
         e = e || window.event;
         e.preventDefault();
 
@@ -66,7 +66,7 @@ function dragElement(draggableF) {
         document.onmousemove = elementDrag;
     }
 
-    function elementDrag(e) {
+   async function elementDrag(e) {
         e = e || window.event;
         e.preventDefault();
 
@@ -79,13 +79,13 @@ function dragElement(draggableF) {
         draggableF.style.left = (draggableF.offsetLeft - pos1) + "px";
     }
 
-    function closeDragElement() {
+   async function closeDragElement() {
 
         document.onmouseup = null;
         document.onmousemove = null;
     }
 };
-window.fakeFPS = function(){
+window.fakeFPS = async function(){
 	window['\x72\x65\x71\x75\x65\x73\x74\x41\x6e\x69\x6d\x46\x72\x61\x6d\x65']=setInterval;
 }
 	window.addEventListener('DOMContentLoaded', function () {
@@ -100,7 +100,7 @@ dragElement(document.getElementById("speedDisplay"));
 dragElement(document.getElementById("menuClassContainer"));
 menubuttons.innerHTML +='<div class="button small buttonP" id="morebttn" onmouseenter="playTick()" onclick="window.showmoreoptions1()">Next</div>'
 
-window.hidemoreoptions1 = function() {
+window.hidemoreoptions1 = async function() {
     $("#morebttn1").show();
     menubuttons.innerHTML =
     '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="openHostWindow()">Host Game</div>'
@@ -109,7 +109,7 @@ window.hidemoreoptions1 = function() {
     +'<div class="button small" id="menuBtnJoin" onmouseenter="playTick()" onclick="showWindow(24)">Join</div>'
     +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions1()">Next</div>'
 }
-window.hidemoreoptions2 = function() {
+window.hidemoreoptions2 = async function() {
     $("#morebttn1").show();
     menubuttons.innerHTML =
 			 '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.hidemoreoptions1()">Back</div>'
@@ -117,7 +117,7 @@ window.hidemoreoptions2 = function() {
 		+ '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.hideelements();">Hide movables</div>'
         +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions2()">Next</div>'
 }
-        window.showmoreoptions1 = function() {
+        window.showmoreoptions1 = async function() {
             $("#morebttn1").hide();
 			menubuttons.innerHTML =
         '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.showelements()">Show movables</div>'
@@ -125,27 +125,27 @@ window.hidemoreoptions2 = function() {
                     +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions2()">Next</div>'
 		}
 
-          window.showmoreoptions2 = function() {
+          window.showmoreoptions2 = async function() {
             $("#morebttn1").hide();
 			menubuttons.innerHTML =
        '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.fakeFPS()">Fake FPS</div>'
 		 +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions3()">Next</div>'
 		}
-             window.showmoreoptions3 = function() {
+             window.showmoreoptions3 = async function() {
             $("#morebttn1").hide();
 			menubuttons.innerHTML =
         '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(5)">Profile</div>'
                   + '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(27)">Ranked</div>'
 		 +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions4()">Next</div>'
 		}
-                         window.showmoreoptions4 = function() {
+                         window.showmoreoptions4 = async function() {
             $("#morebttn1").hide();
 			menubuttons.innerHTML =
         '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(14)">Shop</div>'
                   + '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.open(`/social.html`)">Social</div>'
 		 +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions5()">Next</div>'
 		}
-                          window.showmoreoptions5 = function() {
+                          window.showmoreoptions5 = async function() {
             $("#morebttn1").hide();
 			menubuttons.innerHTML =
         '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(10)">Maps</div>'
