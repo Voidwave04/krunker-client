@@ -1,4 +1,8 @@
 
+
+const {ipcRenderer, remote} = require('electron');
+const Store = require('electron-store');
+const config = new Store();
 window.removebanner = function () {
     var banner1 = document.getElementById('aHolder');
     var banner2 = document.getElementById('gameNameHolder');
