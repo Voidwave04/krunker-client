@@ -1,4 +1,3 @@
-const {ipcRenderer} = require('electron');
 const versionNum = '0.1.0'
 	window.prompt = function importSettings() {
     var tempHTML = '<div class="setHed">Import Settings</div>';
@@ -62,8 +61,6 @@ window.hideelements = function () {
     banner2.style.display = '';
 };
 
-
-
 function dragElement(draggableF) {
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     if (document.getElementById(draggableF.id + "header")) {
@@ -84,7 +81,7 @@ function dragElement(draggableF) {
 
         document.onmousemove = elementDrag;
     }
-
+	
     function elementDrag(e) {
         e = e || window.event;
         e.preventDefault();
