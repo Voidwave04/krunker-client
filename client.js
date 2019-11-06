@@ -1,26 +1,30 @@
-const versionNum = '0.1.0'
-	window.prompt = function importSettings() {
-    var tempHTML = '<div class="setHed">Import Settings</div>';
-    tempHTML += '<div class="settName" id="importSettings_div" style="display:block">Settings String<input type="url" placeholder="Paste Settings String Here" name="url" class="inputGrey2" id="settingString"></div>';
-    tempHTML += '<a class="+" id="importBtn">Import</a>';
-    menuWindow.innerHTML = tempHTML;
-    importBtn.addEventListener('click', () => { parseSettings(settingString.value); });
-}
 
-function parseSettings(string) { 
-    if(string && string != '') {
-        try {
-            var json = JSON.parse(string);
-            for(var setting in json) {
-                setSetting(setting, json[setting]);
-                showWindow(1);
+const versionNum = '0.2.0'
+
+    window.prompt =  function importSettings() {
+        var tempHTML = '<div class="setHed">Import Settings</div>';
+        tempHTML += '<div class="settName" id="importSettings_div" style="display:block">Settings String<input type="url" placeholder="Paste Settings String Here" name="url" class="inputGrey2" id="settingString"></div>';
+        tempHTML += '<a class="+" id="importBtn">Import</a>';
+        menuWindow.innerHTML = tempHTML;
+        importBtn.addEventListener('click', () => { parseSettings(settingString.value); });
+    
+
+    function parseSettings(string) {
+        if(string && string != '') {
+            try {
+                var json = JSON.parse(string);
+                for(var setting in json) {
+                    setSetting(setting, json[setting]);
+                    showWindow(1);
+                }
+            } catch(err) {
+                console.error(err);
+                alert('Error importing settings.');
             }
-        } catch(err) {
-            console.error(err);
-            alert('Failed to import settings');
         }
     }
 }
+    
 window.removebanner = function () {
     var banner1 = document.getElementById('aHolder');
     var banner2 = document.getElementById('gameNameHolder');
@@ -46,13 +50,7 @@ window.showelements = function () {
     var banner2 = document.getElementById('menuItemContainer');
     banner1.style.display = 'block';
     banner2.style.display = 'none';
-
-
-
-
 };
-
-
 
 window.hideelements = function () {
     var banner1 = document.getElementById('inGameUI');
@@ -114,7 +112,7 @@ dragElement(document.getElementById("bottomLeftHolder"));
 dragElement(document.getElementById("bottomRight"));
 dragElement(document.getElementById("speedDisplay"));
 dragElement(document.getElementById("menuClassContainer"));
-menubuttons.innerHTML +='<div class="button small buttonP" id="morebttn" onmouseenter="playTick()" onclick="window.showmoreoptions1()">Next</div>'
+menubuttons.innerHTML +='<div class="button small buttonP" id="morebttn" onmouseenter="playTick()" onclick="window.hidemoreoptions2()">Next</div>'
 	
 window.hidemoreoptions1 = function() {
     $("#morebttn1").show();
@@ -123,15 +121,19 @@ window.hidemoreoptions1 = function() {
     +'<div class="button small buttonR" id="menuBtnBrowser" onmouseenter="playTick()" onclick="showWindow(2)">Server Browser</div>'
     +'<div id="inviteButton" class="button small" onmouseenter="playTick()" onclick="copyInviteLink()">Invite</div>'
     +'<div class="button small" id="menuBtnJoin" onmouseenter="playTick()" onclick="showWindow(24)">Join</div>'
-    +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions1()">Next</div>'
+ +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.hidemoreoptions2()">Next</div>'
 }
 window.hidemoreoptions2 = function() {
     $("#morebttn1").show();
     menubuttons.innerHTML =
-			 '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.hidemoreoptions1()">Back</div>'
-       + '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.showelements()">Show movables</div>'
-		+ '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.hideelements();">Hide movables</div>'
-        +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions2()">Next</div>'
+    '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(5)">Profile</div>'
+                  + '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(27)">Ranked</div>'
+                  +'<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(14)">Shop</div>'
+                  + '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.open(`/social.html`)">Social</div>'
+                  +'<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(10)">Maps</div>'
+                  + '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(4)">Mods</div>'
+         +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="showWindow(1)">Settings</div>'
+         +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions1()">Next</div>'
 }
         window.showmoreoptions1 = function() {
             $("#morebttn1").hide();
@@ -139,36 +141,17 @@ window.hidemoreoptions2 = function() {
         '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.showelements()">Show movables</div>'
 		+ '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.hideelements();">Hide movables</div>'
                     +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions2()">Next</div>'
-		}
+		
 
+
+		}
           window.showmoreoptions2 = function() {
             $("#morebttn1").hide();
 			menubuttons.innerHTML =
        '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.fakeFPS()">Fake FPS</div>'
-		 +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions3()">Next</div>'
+		 +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.hidemoreoptions1()">Next</div>'
 		}
-             window.showmoreoptions3 = function() {
-            $("#morebttn1").hide();
-			menubuttons.innerHTML =
-        '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(5)">Profile</div>'
-                  + '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(27)">Ranked</div>'
-		 +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions4()">Next</div>'
-		}
-                         window.showmoreoptions4 = function() {
-            $("#morebttn1").hide();
-			menubuttons.innerHTML =
-        '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(14)">Shop</div>'
-                  + '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.open(`/social.html`)">Social</div>'
-		 +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="window.showmoreoptions5()">Next</div>'
-		}
-                          window.showmoreoptions5 = function() {
-            $("#morebttn1").hide();
-			menubuttons.innerHTML =
-        '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(10)">Maps</div>'
-                  + '<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="showWindow(4)">Mods</div>'
-		 +'<div class="button small buttonP" id="morebttn1" onmouseenter="playTick()" onclick="showWindow(1)">Settings</div>'
-                              +'<div class="button small buttonP" id="menuBtnHost" onmouseenter="playTick()" onclick="window.hidemoreoptions1()">Next</div>'
-		}
+
 	           mapInfoHolder.insertAdjacentHTML("beforeend", '<div id="clientVersion" style="font-size: 15px; color: #000"></div>');
             clientVersion.innerHTML = '<a style="color: #6600CC">VoidClient v' + versionNum + '</a>';
 	})
