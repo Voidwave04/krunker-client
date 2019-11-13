@@ -1,5 +1,9 @@
 const {app, BrowserWindow} = require('electron');
 const localShortcut = require('electron-localshortcut');
+const RPC = require('discord-rpc');
+const clientId = '643987010704506881';
+const scopes = ['rpc', 'rpc.api', 'messages.read'];
+const rpc = new RPC.Client({ transport: 'ipc' });
 const path = require('path');
 var os = require('os');
 debug = process.argv.includes('--dev') || false;
@@ -13,6 +17,7 @@ app.commandLine.appendSwitch('ignore-gpu-blacklist');
 app.on('ready', () => {
 	runGameWin();
 	shortcuts();
+	initRPC();
   })
 	function runGameWin() {
 		this.gameWin = new BrowserWindow({
@@ -50,4 +55,22 @@ app.on('ready', () => {
 		localShortcut.register('Alt+F4', () => {
 			app.quit();
 		});
+		
 	}
+function initRPC()
+    rpc.login({ clientId }).catch(console.error);
+            function initRPC(win) {
+                win.window.addEventListener('load', () => { setTimeout(setActivity, 3000); });
+            
+                async function setActivity() {
+                    rpc.setActivity({
+                        largeImageKey: 'icon',
+                        largeImageText: 'Krunker Client',
+                        smallImageKey: "logo",
+                        smallImageText: "Made By Voidwave",
+                        startTimestamp: Date.now(),
+                        instance: true
+                    });
+                }
+            }
+        })
