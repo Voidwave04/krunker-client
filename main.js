@@ -38,6 +38,9 @@ app.on('ready', () => {
 				document.exitPointerLock();
 			`);
 	  	});
+		localShortcut.register('F4', () => {
+			this.gameWin.webcontents.executeJavascript(`window.location.href = "https://krunker.io/"`);
+		  });
 		localShortcut.register('F5', () => {
 			this.gameWin.reload();
 		  });
