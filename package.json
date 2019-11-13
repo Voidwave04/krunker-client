@@ -1,0 +1,46 @@
+{
+  "name": "voidclient",
+  "version": "0.1.0",
+  "description": "An open source krunker desktop client made by Voidwave.",
+  "main": "main.js",
+  "dependencies": {
+    "electron-localshortcut": "^3.1.0",
+    "os": "^0.1.1"
+  },
+  "devDependencies": {
+    "electron": "^6.1.2",
+    "electron-builder": "^21.2.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder -wl"
+  },
+  "build": {
+    "appId": "com.voidwave04.voidclient",
+    "compression": "normal",
+    "asar": true,
+    "linux": {
+      "target": "tar.gz",
+      "icon": "icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "icon.ico"
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "icon.ico"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voidwave04/krunker-client.git"
+  },
+  "author": "Voidwave",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Voidwave04/krunker-client/issues"
+  },
+  "homepage": "https://github.com/Voidwave04/krunker-client#readme"
+}
