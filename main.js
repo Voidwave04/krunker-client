@@ -4,6 +4,22 @@ const path = require('path');
 var os = require('os');
 debug = process.argv.includes('--dev') || false;
 
+
+app.commandLine.appendSwitch('enable-zero-copy');
+app.commandLine.appendSwitch('enable-gpu-rasterization');
+app.commandLine.appendSwitch('enable-native-gpu-memory-buffers');
+app.commandLine.appendSwitch('enable-features=CheckerImaging');
+app.commandLine.appendSwitch('enable-experimental-canvas-features');
+app.commandLine.appendSwitch('enable-fast-unload');
+app.commandLine.appendSwitch('javascript-harmony');
+app.commandLine.appendSwitch('enabled-new-style-notification');
+app.commandLine.appendSwitch('enable-quic');
+app.commandLine.appendSwitch('site-per-process');
+app.commandLine.appendSwitch('enable-tcp-fastopen');
+app.commandLine.appendSwitch('save-page-as-mhtml');
+app.commandLine.appendSwitch('enable-smooth-scrolling');
+app.commandLine.appendSwitch('features=CheckerImaging,MaterialDesignExtensions,OmniboxDisplayTitleForCurrentUrl,OmniboxTailSuggestions,OmniboxUIExperimentShowSuggestionFavicons,OmniboxUIExperimentVerticalLayout,SecondaryUiMd');
+app.commandLine.appendSwitch('disable-features=MaterialDesignBookmarks');
 app.commandLine.appendSwitch('ignore-gpu-blacklist');
 		app.commandLine.appendSwitch('disable-frame-rate-limit');
 		if(os.cpus()[0].model.includes('AMD')) {
