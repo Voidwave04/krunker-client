@@ -1,7 +1,6 @@
 const {app, BrowserWindow} = require('electron');
 const localShortcut = require('electron-localshortcut');
 const path = require('path');
-var os = require('os');
 debug = process.argv.includes('--dev') || false;
 
 
@@ -22,9 +21,7 @@ app.commandLine.appendSwitch('features=CheckerImaging,MaterialDesignExtensions,O
 app.commandLine.appendSwitch('disable-features=MaterialDesignBookmarks');
 app.commandLine.appendSwitch('ignore-gpu-blacklist');
 		app.commandLine.appendSwitch('disable-frame-rate-limit');
-		if(os.cpus()[0].model.includes('AMD')) {
-			app.commandLine.appendSwitch('enable-zero-copy');
-		 }
+
 
 app.on('ready', () => {
 	runGameWin();
