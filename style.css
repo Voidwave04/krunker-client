@@ -1,7 +1,9 @@
 * {
+    font-family: 'voidFont';
     color: #ff0000
 }
 @font-face {
+    font-family: 'voidFont';
     src: url(WebFont.woff) format('woff');
 }
 #ingameFPS {
