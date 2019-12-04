@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'voidFont';
-    src: url(WebFont.woff) format('woff'),
+    src: url('WebFont.woff') format('woff'),
         url('WebFont.woff2') format('woff2'),
 }
 #ingameFPS {
