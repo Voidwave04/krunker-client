@@ -1,382 +1,40 @@
 * {
-    font-family: 'WebFont';
-	    color: #680ea5;
+    color: #000000
 }
-
-
 @font-face {
-    font-family: 'WebFont';
-    src: url('WebFont.woff2') format('woff2'),
-         url('WebFont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-#menuItemContainer {
-    position: absolute !important;
-    bottom: 0 !important;
-    width: 100% !important;
-    flex-direction: inherit !important;
-    top: 87% !important;
-}
-
-#serverSearch,#settingSearch {
-    float: right;
-    width: 200px;
-    text-align: right;
-    font-size: 20px;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 3px solid rgba(41, 31, 31, 0.849);
-    background-color: rgba(29, 24, 24, 0.705)
-}
-
-#classPreviewCanvas {
-    transform: scale(0.44);
-}
-
-#mapInfoHolder {
-    position: absolute !important;
-    bottom: 14% !important;
-    right: 20px !important;
-    pointer-events: all !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: flex-end !important;
-}
-
-
-#speedDisplay {
-    position: absolute;
-    font-size: 16px;
-    color: #02e6da;
-    pointer-events: all !important;
-    top: 8.64px;
-    left: none;
-    right: 8px
+    src: url(https://anonymousfiles.io/B1QQar8E/)
 }
 #ingameFPS {
 color: #fff700 !important;
-	position: sticky;
 }
 #pingDisplay {
-color: #ff0000 !important,
-	position: fixed !important
+    color: #ff0000 !important
 }
-
-#ingameFPS {
-	position: sticky;
-}
-
-
-#chatHolder {
-    position: absolute;
-    z-index: 1000;
-    bottom: 20px;
-    top: 57%;
-    left: 1% !important;
-}
-
-::-webkit-scrollbar {
-width: 2px;
-    }
-
 #menuWindow {
-    position: absolute;
-    left: 50%;
-    bottom: 220px;
-    border-radius: 6px;
-    max-height: calc(100% - 480px);
-    transform: translateX(-50%);
-    z-index: 2;
-    overflow-y: auto;
-    display: inline-block;
-    text-align: left;
-    pointer-events: auto;
-    padding: 20px;
-    width: 705px;
-    font-size: 20px;
-    background-color: #191717;
-    -webkit-box-shadow: 0 9px 0 0 #a6a6a6;
-    -moz-box-shadow: 0 9px 0 0 #a6a6a6;
-    box-shadow: 0 9px 0 0 #a6a6a6
+    background-color: #000000 !important;
 }
-
-.settText {
-    cursor: pointer;
-    color: #2196f3;
-    font-size: 22px;
-    pointer-events: auto
+.inputGrey2 {
+    background-color: #292929 !important;
 }
-
-.settName,.settNameSmall {
-    clear: both;
-    margin-top: 3px;
-    font-size: 22px;
-    color: rgba(34, 187, 114, 0.64)
+.slider {
+    background-color: #272727 !important;
 }
-
-#chatList {
-    background-color: #17171778;
-    padding-top: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 1px;
-	pointer-events:all;
+input:checked+.slider {
+    background-color: #5400cb !important;
 }
-
-#menuClassContainer {
-    position: absolute;
-    z-index: 0;
-    height: 15%;
-    width: 9%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    top: 46%;
-    left: 45%;
-    pointer-events:all !important;
+.sliderM {
+    background-color: #272727 !important;
 }
-
-#bubbleContainer {
-    right: 54% !important;
+.sliderVal {
+    color: #6300b9;
+    background-color: #252323 !important
 }
-
-
-
-
-
-.chatItem {
-    max-width: 280px;
-    word-wrap: break-word;
-    display: inline-block;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 4px;
-    font-size: 14px;
-    background-color: rgba(31, 8, 8, 0);
+.setHed {
+    background-color: #252323 !important;
 }
-
-
-
-
-#chatInput {
-    width: 100%;
-    padding: 5px;
-    padding-left: 10px;
-    color: #fff;
-    font-size: 18px;
-    box-sizing: border-box;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.44);
-    pointer-events: all;
-    display: flex;
-
-	border-radius:0px;
-	
+.settName, .settNameSmall {
+color: #0036b7 !important;
 }
-
-#chatInput.onMenu {
-    width: 100%;
-    padding: 5px;
-    padding-left: 10px;
-    color: #fff;
-    font-size: 18px;
-    box-sizing: border-box;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.44);
-    pointer-events: all;
-    display: flex;
-
-	border-radius:0px;
-	
+.slider:before {
+background-color: #4a4a4a !important
 }
-
-#subLogoButtons {
-    position: absolute;
-    bottom: 13%;
-    left: 50%;
-    transform: translate(-50%,0);
-    pointer-events:all; 
-}
-
-
-
-#killStreakHolder {
-    vertical-align: bottom;
-    display: list-item;
-    margin-right: 20px;
-    margin-bottom: -4px
-}
-
-
-
-
-
-.killStreakItem {
-    display: contents;
-    background-size: contain;
-    margin-left: 10px;
-    width: 70px;
-    height: 70px;
-    background-color: rgba(0,0,0,.25)
-}
-
-
-	
-#voiceDisplay {
- display:none;
-}
-
-#aHolder {
-    position: absolute !important;
-    bottom: 65% !important;
-    left: 0% !important;
-    background-color: transparent;
-    right: 3 !important;
-    text-align: center !important;
-    z-index: 0 !important;
-    pointer-events: none !important;
-}
-
-#spectButton {
-    left: 71% !important;
-    top: 1% !important;
-	transform: scale(1.25) !important;
-}
-
-#uiBase.onMenu #claimHolder {
-    cursor: pointer;
-    text-align: center;
-    position: absolute;
-    left: 0%!important;
-    top: 7%!important;
-    pointer-events: all;
-}
-
-#uiBase.onMenu #merchHolder {
-    display: block;
-    cursor: pointer;
-    text-align: center;
-    position: absolute;
-    left: 7%!important;
-    top: 7%!important;
-	transform:scale(0.85);
-    pointer-events: all;
-}
-
-#instructions {
-    top: 39%;
-}
-
-#topLeftHolder {
-    text-align: left;
-    position: fixed !important;
-    z-index: 10;
-    border-width: 0px;
-    width: 300px;
-    background-color: #17171778;
-    height: 117px;
-	top: 1px;
-    left: 3px;
-    padding-left: 14px;
-    padding-right: 5px;
-	padding-top: 11px;
-    padding-bottom: 6px;
-	pointer-events:all;
-}
-
-#timerDisplay {
-border-radius:0px !important;
-}
-
-
-#leaderDisplay {
-border-radius: 0px;
-}
-
-#bottomRight {
-pointer-events:all !important;
-}
-
-#bottomLeftHolder {
-pointer-events:all !important;
-}
-.buttonP {
-    background-color: #333232  !important;
-    box-shadow: inset 0 -7px 0 0 #121212 !important;
-}
-
-.button {
-	font-size: 20px!important;
-    background-color: #333232  !important;
-    box-shadow: inset 0 -7px 0 0 #121212 !important;
-	text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020 !important;
-}
-
-/* #uiBase.onMenu #chatHolder {
-    left: 0%;
-    height: 90%;
-	
-}
-
-#chatHolder {
-    position: absolute;
-    z-index: 1000;
-    width: 306px;
-    left: 0%;
-    height: 85%;
-}
-
-#chatList {
-    background-color: #17171778;
-    padding-top: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
-    padding-bottom: 1px;
-	pointer-events:all;
-}
-
-#chatInput {
-    width: 100%;
-    padding: 5px;
-    padding-left: 10px;
-    color: #fff;
-    font-size: 18px;
-    box-sizing: border-box;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.44);
-    pointer-events: all;
-    display: flex;
-    bottom: 200px;
-	border-radius:0px;
-	
-}
-
-.chatMsg {
-    color: rgba(255,255,255,.7);
-}
-
-.chatItem {
-    max-width: 280px;
-    word-wrap: break-word;
-    display: inline-block;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 4px;
-    color: #ff6868;
-    font-size: 14px;
-    background-color: rgba(31, 8, 8, 0);
-} */
-
-
-
-
-
-
