@@ -1,5 +1,5 @@
 * {
-    color: #000000
+    color: #ff0000
 }
 @font-face {
     src: url(https://anonymousfiles.io/B1QQar8E/)
@@ -30,7 +30,7 @@ input:checked+.slider {
     background-color: #252323 !important
 }
 .setHed {
-    background-color: #252323 !important;
+    background-color: #000000 !important;
 }
 .settName, .settNameSmall {
 color: #0036b7 !important;
