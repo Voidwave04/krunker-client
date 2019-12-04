@@ -11,6 +11,16 @@
 #ingameFPS {
 color: #fff700 !important;
 }
+#serverSearch,#settingSearch {
+    float: right;
+    width: 200px;
+    text-align: right;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid rgba(41, 31, 31, 0.849);
+    background-color: rgba(29, 24, 24, 0.705)
+}
 #pingDisplay {
     color: #ff0000 !important
 }
@@ -41,4 +51,15 @@ color: #0036b7 !important;
 }
 .slider:before {
 background-color: #4a4a4a !important
+}
+.buttonP {
+    background-color: #333232  !important;
+    box-shadow: inset 0 -7px 0 0 #121212 !important;
+}
+
+.button {
+	font-size: 20px!important;
+    background-color: #333232  !important;
+    box-shadow: inset 0 -7px 0 0 #121212 !important;
+	text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020 !important;
 }
