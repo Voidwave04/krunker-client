@@ -2,7 +2,7 @@
     color: #ff0000
 }
 @font-face {
-    src: url(WenFont.woff) format('woff');
+    src: url(WebFont.woff) format('woff');
 }
 #ingameFPS {
 color: #fff700 !important;
