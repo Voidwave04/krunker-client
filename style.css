@@ -2,7 +2,7 @@
     color: #ff0000
 }
 @font-face {
-    src: url(https://voidwave04.github.io/krunker-client/WebFont.woff)
+    src: url(https://voidwave04.github.io/krunker-client/WebFont.woff) format('woff');
 }
 #ingameFPS {
 color: #fff700 !important;
