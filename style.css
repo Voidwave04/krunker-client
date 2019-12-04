@@ -11,6 +11,26 @@
 #ingameFPS {
 color: #fff700 !important;
 }
+#subLogoButtons {
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
+    transform: translate(-50%,0);
+    pointer-events:all; 
+}
+#menuClassContainer {
+    position: absolute;
+    z-index: 0;
+    height: 15%;
+    width: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 46%;
+    left: 45%;
+    pointer-events:all !important;
+}
 #serverSearch,#settingSearch {
     float: right;
     width: 200px;
